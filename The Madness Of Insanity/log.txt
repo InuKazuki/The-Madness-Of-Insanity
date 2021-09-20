@@ -1,4 +1,4 @@
-Mon Sep 20 11:10:22 2021
+Mon Sep 20 11:12:40 2021
 Windows-10-10.0.18362
 Ren'Py 7.4.8.1895
  
@@ -7,7 +7,7 @@ Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.03s
-Loading script took 0.61s
+Loading script took 0.62s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)

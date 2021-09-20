@@ -6,7 +6,7 @@ __pycache__/
 # C extensions
 *.so
 
-The-Madness-Of-Insanity/The\Madness\Of\Insanity/cache/*
+The Madness Of Insanity/game/cache/*
 
 # Distribution / packaging
 .Python
