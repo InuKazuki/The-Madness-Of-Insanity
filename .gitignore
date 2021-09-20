@@ -8,6 +8,7 @@ __pycache__/
 
 The Madness Of Insanity/game/saves/*
 The Madness Of Insanity/game/cache/*
+The Madness Of Insanity/log.txt
 
 # Distribution / packaging
 .Python
