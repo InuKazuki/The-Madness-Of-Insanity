@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+The-Madness-Of-Insanity/The\Madness\Of\Insanity/cache/*
+
 # Distribution / packaging
 .Python
 build/
