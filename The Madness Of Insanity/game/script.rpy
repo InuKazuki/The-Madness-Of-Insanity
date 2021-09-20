@@ -10,7 +10,7 @@ label start:
     #zoom 0.5
     show yurinormal
 
-    y "O que tem pra hoje?"
+    y "{font=Timeless.ttf}O que tem pra hoje?{/font}"
 
     hide yurinormal
     show julianormal
