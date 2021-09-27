@@ -1,66 +1,47 @@
-﻿define j = Character("Jenny")
-define y = Character("Yuri")
-define a = Character("Julia")
+﻿define je = Character("Jenny")
+define ydialogo = Character("Yuri", image="ydialogo")
+define yu = Character("Yuri")
+define ju = Character("Julia")
+image rua = "images/fundorua.png"
+image side ydialogo = "yuritela.png"
+image bg carro = "images/carro.png"
 
-#image fundocozinha = "images/Screenshot_8.png"
 
 label start:
 
-    #scene Screenshot_8
-    #zoom 0.5
+    scene rua
+
+    ydialogo "Aquele carro, eu quero ele!"
+
+    call screen rua
+
+    if _return == "carro":
+        jump carro
+
+label carro:
+    hide bg rua
+    scene bg carro:
+    with dissolve
+
     show yurinormal
 
-    y "{font=Timeless.ttf}O que tem pra hoje?{/font}"
+    yu "Baita carro"
 
     hide yurinormal
     show julianormal
 
-    a "Pão com ovo frito, o café tá na pia"
+    ju "abababab"
 
     hide julianormal
-    show yurinormal
-
-    y "Valeu pela comida, não sei o que eu faria sem você"
-
-    hide yurinormal
-    show julianormal
-
-    a "Mesmo sem você fazendo quase nada, ainda te mimo. Só que há uma condição, há algo chamado caminhão do lixo, que só passa segunda, quarta e sexta, então TRATE DE LEVAR O LIXO HOJE! TÁ UM FEDOR!"
-
-    hide julianormal
-    show yurinormal
-
-    y "Eu tava ocupado! Não podia levar ontem!"
-
-    hide yurinormal
-    show julianormal
-
-    a "Anime, né?"
-
-    hide julianormal
-    show yurinormal
-
-    y "N-Não..."
-
-    hide yurinormal
-    show juliarage
-
-    a "..."
-
-    hide juliarage
-    show julianormal
-
-    y "...Mas enfim, hoje tu tem prova né?"
-
-    hide julianormal
-    show yurinormal
-
-    y "Tenho"
-
-    hide yurinormal
-    show julianormal
-
-
-    # This ends the game.
-
     return
+
+
+
+
+
+screen rua:
+    imagemap:
+        ground "images/ground.png"
+        hover "images/hover.png"
+
+        hotspot(756, 294, 49, 69) action Return("carro")

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 10: expected statement.
-    zoom 0.5
-          ^
+File "game/script.rpy", line 29: expected ':' not found.
+    label carro
+               ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Thu Sep 16 15:33:31 2021
+Mon Sep 27 14:39:27 2021
