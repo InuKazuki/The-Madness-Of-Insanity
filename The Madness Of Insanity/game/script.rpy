@@ -35,10 +35,6 @@ label carro:
     hide julianormal
     return
 
-
-
-
-
 screen rua:
     imagemap:
         ground "images/ground.png"
