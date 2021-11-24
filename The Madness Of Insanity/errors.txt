@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 14: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation.
-    "Tudo está escuro"
-    ^
+File "game/script.rpy", line 195: expected statement.
+    whith fade
+              ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Wed Sep 29 11:25:36 2021
+Wed Nov 24 16:02:33 2021
