@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 195: expected statement.
-    whith fade
-              ^
+File "game/script.rpy", line 776: expected statement.
+    jyalterdialogo
+                  ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Wed Nov 24 16:02:33 2021
+Tue Nov 30 18:13:24 2021

@@ -1,22 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 142, in script
-    vjenny "Ah, sim, obrigada…"
-Exception: Sayer 'vjenny' is not defined.
+  File "game/script.rpy", line 664, in script
+    jennyalterrage "..."
+Exception: Sayer 'jennyalterrage' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 142, in script
-    vjenny "Ah, sim, obrigada…"
+  File "game/script.rpy", line 664, in script
+    jennyalterrage "..."
   File "renpy/ast.py", line 681, in execute
     who = eval_who(self.who, self.who_fast)
   File "renpy/ast.py", line 574, in eval_who
     raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'vjenny' is not defined.
+Exception: Sayer 'jennyalterrage' is not defined.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 The Madness Of Insanity 
-Wed Nov 24 16:43:14 2021
+Tue Nov 30 17:52:50 2021
